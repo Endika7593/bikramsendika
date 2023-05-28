@@ -13,9 +13,9 @@ let resultadoDesp = incrementarDesp++;
 let incrementarAntes = 2;
 let resultadoAntes = ++incrementarAntes;
 
-let contarHasta10_2
+let contarHasta10_2 = 0
 
-for (contarHasta10_2 = 0; contarHasta10_2 <= 10; contarHasta10_2 ++) {
+for (contarHasta10_2 = 0; contarHasta10_2 < 10; contarHasta10_2 ++) {
   console.log(contarHasta10_2 === 10)
 }
 
@@ -36,9 +36,9 @@ for (let i = 0; i < 10; i++) {
 
 let variableValorNumerico = 7
 
-const miNombre = "Endika"
+const MiNombre = "Endika"
 
-const miNumeroFav = 7
+const MiNumeroFav = 7
 
 let booleanoOr = booleano1 || booleano2;
 
@@ -48,13 +48,13 @@ let seisNoEsNueve = 6 !== 9
 
 let booleanoMix2 = (variableValorNumerico > 0) || (variableValorNumerico < -(MiNumeroFav * TAU));
 
-let valorSuma = miNumeroFav + variableValorNumerico
+let valorSuma = MiNumeroFav + variableValorNumerico
 
-let valorResta = miNumeroFav - variableValorNumerico
+let valorResta = MiNumeroFav - variableValorNumerico
 
-let valorMultiplicacion = miNumeroFav * variableValorNumerico
+let valorMultiplicacion = MiNumeroFav * variableValorNumerico
 
-let valorDivision = miNumeroFav / variableValorNumerico
+let valorDivision = MiNumeroFav / 3
 
 let contarHasta10 = 0;
 
@@ -74,6 +74,8 @@ let sumaImpares = 0;
 for (let i = 0; i < 10; i++) {
   if (i % 2 !== 0) {
     sumaImpares += i;
+   
   }
+  
 }
 
